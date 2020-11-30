@@ -141,14 +141,18 @@ html, body{
     height: calc(248px * 3);
     display: block;
 }
-.main > .section .section_head{
+.main > .section header{
     color:darkgray;
     font-size: 150%;
     margin-left: 8%;
+    padding-top: 2px;
 }
-.main > .section .section_head a{
-    color: navy;
-    font-size: calc(150% / 2);
+.main > .section header hr{
+    display: block;
+}
+.main > .section header h2, .main > .section header strong{
+    display: block;
+    margin-top: 2%;
 }
 
 
