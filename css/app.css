@@ -1,5 +1,6 @@
 html, body{
     margin: 0;
+    overflow-x: hidden;
 }
 .header{
     width: 100%;
@@ -26,10 +27,11 @@ html, body{
     display: block;
     margin-top: 3px;
     font-size: 140%;
+    color: darkgray;
 }
 .header > #header_bottom{
     float: right;
-    width: calc(110% / 2);
+    width: calc(100% / 2);
     margin-top: 60px;
     margin-right: 6%;
 }
@@ -39,29 +41,95 @@ html, body{
 }
 .header > #header_bottom .hb_bottom header{
     display: block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 100%;
 }
-.header > #header_bottom .hb_bottom header #contact{
-    font-size: 120%;
-    color: rgb(32, 31, 31);
+.header > #header_bottom .hb_bottom header .welcome-link {
+	float: left;
+	display: inline-block;
+	font-size: 120%;
+	position: relative;
+	top: 16px;
+}
+.header > #header_bottom .hb_bottom header .welcome-link a{
+    color: darkgray;
+    text-decoration: none;
+}
+.header > #header_bottom .hb_bottom header .header-informer{
+    display: inline;
+    float: right;
+}
+.header > #header_bottom .hb_bottom header .header-informer main {
+	display: inline-block;
+	margin-left: -12%;
+	position: relative;
+	top: 9px;
+}
+.header > #header_bottom .hb_bottom header .header-informer main a {
+	display: inline;
+	margin-left: 11px;
+}
+.header > #header_bottom .hb_bottom header .header-informer main a img {
+	width: 35px;
+}
+.header > #header_bottom .hb_bottom header .header-informer footer {
+	display: inline;
+	float: right;
+	margin-top: 1px;
+	padding-left: 44px;
+    width: 53%;
+    margin-right: -9%;
+}
+.header > #header_bottom .hb_bottom header .header-informer footer .user-services{
+    display: inline;
+}
+.header > #header_bottom .hb_bottom header .header-informer footer .user-services div{
+    padding-right: 2%;
+    display: inline;
+}
+.header > #header_bottom .hb_bottom header .header-informer footer .user-services a {
+	color: darkgray;
+	font-size: 120%;
+	text-decoration: none;
+	position: relative;
+	top: -9px;
+}
+.header > #header_bottom .hb_bottom header .header-informer footer .user-services img{
+    width: 35px;
+}
+.header > #header_bottom .hb_bottom header .header-informer footer .menu-show{
+    display: inline;
+}
+.header > #header_bottom .hb_bottom header .header-informer footer .menu-show img{
+    width: 35px;
 }
 .header > #header_bottom .hb_bottom footer{
     display: block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 63px;
 }
 .header > #header_bottom .hb_bottom footer nav{
-    font-size: 170%;
+    font-size: 125%;
 }
 .header > #header_bottom .hb_bottom footer nav a{
     display: inline;
-    color: black;
+    color: darkgray;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
     margin-left: 2px;
     margin-right: 2px;
+    padding-bottom: 17px;
+}
+.header > #header_bottom .hb_bottom footer nav #active{
+    border-bottom: solid 2px dodgerblue;
+}
+.header > #header_bottom .hb_bottom footer nav img{
+    width: 35px;
+    position: relative;
+    top: 10px;
 }
 .main{
     width: 100%;
@@ -83,250 +151,6 @@ html, body{
     font-size: calc(150% / 2);
 }
 
-#projects > .section_body{
-    width: 100%;
-    margin-top: 2%;
-}
-#projects > .section_body .pjts-list{
-    width: 100%;
-}
-#projects > .section_body .pjts-list #slider-controller{
-    width: 10%;
-    height: calc(238px * 3);
-    display: inline-block;
-}
-#projects > .section_body .pjts-list header#slider-controller{
-    float: left;
-    margin-left: 2%;
-}
-#projects > .section_body .pjts-list footer#slider-controller{
-    float: right;
-    margin-right: -4%;
-}
-#projects > .section_body .pjts-list #slider-controller img{
-   width: 30%;
-   margin-top: 120px;
-}
-#projects > .section_body .pjts-list main{
-    width: 80%;
-    height: calc(238px * 3);
-    display: inline-block;
-}
-#projects > .section_body .pjts-list main .slide{
-    width: 90%;
-    margin-left: 1%;
-    display: block;
-}
-#projects > .section_body .pjts-list main .slide .project-data{
-    width: 30%;
-    height: calc(138px * 3);
-    display: inline-table;
-    background-color: whitesmoke;
-    margin-left: 2%;
-}
-#projects > .section_body .pjts-list main .slide .project-data .sshot{
-   width: 100%;
-   height: calc(138px * 2);
-   background-color: lightblue;
-   display: block;
-}
-#projects > .section_body .pjts-list main .project-data .sshot img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-#projects > .section_body .pjts-list main .slide .project-data .sshot div{
-    width: 100%;
-    height: calc(138px / 3);
-    background-color:darkblue;
-    position: relative;
-    top: -50px;
-    visibility: hidden;
-}
-#projects > .section_body .pjts-list main .slide .project-data .sshot:hover div{
-    cursor: pointer;
-    visibility: visible;
-}
-#projects > .section_body .pjts-list main .slide .project-data .sshot div a{
-   color: white;
-   text-decoration: none;
-   font-size: 150%;
-   text-transform: uppercase;
-   margin-left: 2%;
-   position: relative;
-   top: 10px;
-}
-#projects > .section_body .pjts-list main .slide .project-data .sshot div img{
-    width: 10%;
-    vertical-align: middle;
-}
-#projects > .section_body .pjts-list main .slide .project-data .title{
-    margin-top: 2%;
-    margin-left: 2%;
-    font-size: 180%;
-    display: block;
-    color: darkblue;
-}
-#projects > .section_body .pjts-list main .slide .project-data .year{
-    margin-top: 2%;
-    margin-left: 2%;
-    font-size: calc(180% / 2);
-    display: block;
-}
-
-#customers > .section_head h2, #customers > .section_head a{
-    display: inline;
-    padding-right: 6%;
-}
-#customers > .section_head h2{
-    margin-left: -5%;
-}
-#customers > .section_body{
-    margin-left: calc(2% * 2);
-    display: block;
-    margin-top: 2%;
-    width: 90%;
-}
-#customers > .section_body  .customer-cont{
-    display: inline-table;
-    margin-left: 4%;
-    width: 20%;
-    height: 300px;
-    background-color: white;
-    box-shadow: 10px 0px 7px 8px lightgrey;
-}
-#customers > .section_body  .customer-cont:hover{
-    box-shadow: 10px 0px 12px 8px lightgrey;
-}
-#customers > .section_body  .customer-cont .cat-cust{
-    background-color: darkblue;
-    color: white;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    font-size: calc(220% / 2);
-    display: block;
-}
-#customers > .section_body  .customer-cont .cat-cust h4{
-    margin-left: 2%;
-}
-#customers > .section_body  .customer-cont header{
-    margin-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    display: block;
-}
-#customers > .section_body  .customer-cont header .logo{
-    width: 40%;
-    display: block;
-}
-
-#customers > .section_body  .customer-cont footer{
-    display: block;
-    margin-top: 15mm;
-}
-#customers > .section_body  .customer-cont footer a{
-    font-size: calc(220% / 2);
-    color: darkblue;
-    text-transform: uppercase;
-    text-decoration: none;
-    float: right;
-    margin-right: 2%;
-}
-
-
-#feedback > .section_head{
-    width: 20%;
-    float: left;
-}
-#feedback > .section_body{
-    width: 72%;
-    float: right;
-}
-#feedback > .section_body form{
-    margin-top: 2%;
-}
-#feedback > .section_body form .inliner{
-    width: 38%;
-    padding-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border: solid 2px darkblue;
-    margin-left: 3%;
-    display: inline-block;
-    font-size: 130%;
-}
-#feedback > .section_body form textarea{
-    width: 81%;
-    height: 176px;
-    padding-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border: solid 2px darkblue;
-    margin-left: 3%;
-    display: block;
-    margin-top: 3%;
-    font-size: 120%;
-    resize: none;
-}
-#feedback > .section_body form input[type=checkbox]{
-    margin-left: 3%;
-    margin-top: 5%;
-    display: inline;
-}
-#feedback > .section_body form #atettion{
-    display: inline;
-    margin-left: 1%;
-    font-size: 150%;
-}
-#feedback > .section_body form input[type=button]{
-    float: right;
-    margin-right: 12%;
-    padding: 1%;
-    width: 14%;
-    color: #fff;
-    font-size: 143%;
-    background-color: darkblue;
-    border: none;
-    margin-top: 4%;
-}
-
-#contacts > .section_head{
-    width: 20%;
-    float: left;
-}
-#contacts > .section_body{
-    width: 72%;
-    float: right;
-}
-#contacts > .section_body .contacts-header, #contacts > .section_body .contacts-content{
-    width: 100%;
-    display: block;
-    margin-left: 1%;
-}
-#contacts > .section_body .contacts-header ul{
-    list-style-type: none;
-    font-size: 180%;
-    color: darkblue;
-}
-#contacts > .section_body .contacts-header ul li{
-    margin-top: 2%;
-}
-#contacts > .section_body .contacts-header ul li .cnct{
-    width: 50px;
-    height: 50px;
-    vertical-align: middle;
-}
-#contacts > .section_body .contacts-header ul li span{
-    margin-left: 1%;
-}
-#contacts > .section_body .contacts-content iframe{
-    width: 70%;
-    height: 400px;
-    margin-left: 2%;
-}
-
-
-
 
 .footer{
     width: 100%;
@@ -346,30 +170,50 @@ html, body{
     position: relative;
     top: 50px;
 }
-.footer > header #copyright {
-    font-size: 150%;
+.footer > header main{
+    display: block;
+    position: relative;
+    top: 80px;
 }
-.footer > header #contact {
-    font-size: calc(180% / 2);
-    margin-top: 2%;
+.footer > header main a{
+    width: 10%;
+    height: 10%;
+    border: solid 2px white;
+    padding: 4%;
+}
+.footer > header main img{
+    width: calc(10% / 2);
+    height: calc(10% / 2);
+    vertical-align: middle;
 }
 .footer > main {
     float: right;
     display: inline;
     margin-right: 6%;
-    width: calc(60% / 2);
+    width: calc(90% / 2);
     position: relative;
     top: 50px;
 }
 
-.footer > main #category_menu{
-    display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: calc(100%/6);
+.footer > main #category_menu {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 30px;
 }
-.footer > main #category_menu .catname{
-    font-size: 170%;
-    font-weight: 700;
-
+.footer > main #category_menu .catname {
+	font-size: 170%;
+	font-weight: 700;
+}
+.footer > main #category_menu ul {
+	display: block;
+	margin-top: 7px;
+	font-size: 110%;
+	margin-left: -28px;
+}
+.footer > main #category_menu ul li {
+	margin-top: 2px;
+}
+.footer > main #category_menu ul li a{
+    color: white;
+    text-decoration: none;
 }
