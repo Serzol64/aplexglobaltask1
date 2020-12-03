@@ -141,6 +141,7 @@ html, body{
     height: 880px;
     display: block;
     padding-bottom: 3%;
+    padding-top: 3%;
 }
 .main > .section header{
     color:darkgray;
@@ -261,6 +262,105 @@ html, body{
     font-size: 140%;
     display: block;
 }
+
+#services > header{
+    width: 20%;
+    float: left;
+    display: inline-table;
+}
+#services > header a{
+   text-decoration: none;
+   text-transform: uppercase;
+}
+#services > header a strong{
+    text-decoration: underline;
+ }
+#services > main{
+    width: 70%;
+    float: right;
+    display: inline-table;
+
+}
+#services > main #slider-controller{
+    width: 10%;
+    display: inline-table;
+}
+#services > main #slider-controller img{
+    width: 30%;
+    position: relative;
+    top: -120px;
+}
+#services > main #slider-view{
+    width: 70%;
+    display: inline-table;
+}
+#services > main #slider-view .service-feed{
+    display: block;
+    margin-left: -12%;
+}
+#services > main #slider-view .service-feed .service{
+    width: 30%;
+    height: 230px;
+    display: inline-table;
+    box-shadow: 3px -1px 11px 3px darkgray;
+    margin-left: 3%;
+}
+#services > main #slider-view .service-feed .service header{
+    background-color: darkgray;
+    color: white;
+    text-transform: uppercase;
+    width: 102%;
+    display: block;
+    font-size: 100%;
+    float: left;
+    margin-left: -1%;
+}
+#services > main #slider-view .service-feed .service:hover{
+    cursor: pointer;
+}
+#services > main #slider-view .service-feed .service:hover header{
+    background-color: dodgerblue;
+}
+#services > main #slider-view .service-feed .service header h3{
+    margin-left: 2%;
+}
+#services > main #slider-view .service-feed .service main{
+    width: 100%;
+    float: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#services > main #slider-view .service-feed .service main img{
+    width: 50%;
+    object-fit: cover;
+    margin-left: 2%;
+}
+#services > main #slider-view .service-feed .service footer{
+    display: block;
+    width: 100%;
+    font-size: 120%;
+    margin-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#services > main #slider-view .service-feed .service footer .title{
+    font-weight: bold;
+    display: block;
+}
+#services > main #slider-view .service-feed .service footer .location{
+    color: darkgray;
+    font-style: italic;
+    font-size: 110%;
+    display: block;
+}
+#services > main #slider-view .service-feed .service footer .descr{
+    display: block;
+}
+
+
+
+
+
 #analytics > header{
     width: 20%;
     float: left;
@@ -324,6 +424,123 @@ html, body{
     color: darkblue;
     font-size: 110%;
 }
+
+#estate > header{
+    width: 20%;
+    float: left;
+    display: inline-table;
+}
+#estate > main{
+    width: 70%;
+    float: right;
+    display: inline-table;
+}
+#estate > main #slider-controller{
+    width: 10%;
+    display: inline-table;
+}
+#estate > main #slider-controller img{
+    width: 30%;
+    position: relative;
+    top: -177px;
+}
+#estate > main #slider-view{
+    width: 70%;
+    display: inline-table;
+}
+#estate > main #slider-view .estat-feed{
+    display: block;
+    margin-left: -12%;
+}
+#estate > main #slider-view .estat-feed .estat{
+    width: 30%;
+    height: 330px;
+    display: inline-table;
+    box-shadow: 3px -1px 11px 3px darkgray;
+    margin-left: 3%;
+}
+#estate > main #slider-view .estat-feed .estat header{
+    background-color: darkgray;
+    color: white;
+    text-transform: uppercase;
+    width: 102%;
+    display: block;
+    font-size: 100%;
+    float: left;
+    margin-left: -1%;
+}
+#estate > main #slider-view .estat-feed .estat:hover{
+    cursor: pointer;
+}
+#estate > main #slider-view .estat-feed .estat:hover header{
+    background-color: dodgerblue;
+}
+#estate > main #slider-view .estat-feed .estat header h3{
+    margin-left: 2%;
+}
+#estate > main #slider-view .estat-feed .estat main{
+    width: 100%;
+    float: left;
+}
+#estate > main #slider-view .estat-feed .estat main img{
+    width: 100%;
+    object-fit: cover;
+}
+#estate > main #slider-view .estat-feed .estat:hover main img{
+    transform: scale(1.2);
+}
+#estate > main #slider-view .estat-feed .estat footer{
+	display: block;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 100%;
+}
+#estate > main #slider-view .estat-feed .estat footer .info, #estate > main #slider-view .estat-feed .estat footer .raiting{
+	display: block;
+	margin-left: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+#estate > main #slider-view .estat-feed .estat footer .info span{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 130%;
+    color: darkgray;
+    display: block;
+}
+#estate > main #slider-view .estat-feed .estat footer .info span:nth-child(1){
+    font-size: 140%;
+    color:black;
+    font-weight: bold;
+}
+
+.raiting > span{
+    display: block;
+    margin-top: 2%;
+    color: dodgerblue;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+.rating-mini {
+	display: block;
+    font-size: 0;
+    margin-top: 2%;
+}
+.rating-mini span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating-mini > span:before {
+	content: '★';
+}
+.rating-mini > span.active {
+	color: gold;
+}
+
+
 #reviews > header{
     width: 20%;
     float: left;
@@ -376,7 +593,7 @@ html, body{
 .footer{
     width: 100%;
     height: calc(248px * 2);
-    background-color: darkgray;
+    background-color:#9da5a7;
     color: white;
 }
 .footer > header #contact a, .footer > main #category_menu .catname{
@@ -387,9 +604,13 @@ html, body{
     float: left;
     display: inline;
     margin-left: 8%;
-    width: calc(100% / 4);
+    width: 20%;
     position: relative;
     top: 50px;
+    font-size: 140%;
+}
+.footer > header .logo{
+    display: block;
 }
 .footer > header main{
     display: block;
@@ -411,17 +632,16 @@ html, body{
 }
 .footer > main {
     float: right;
-    display: inline;
-    margin-right: 6%;
-    width: calc(90% / 2);
+    display: inline-table;
+    margin-right: -13%;
+    width: 80%;
     position: relative;
-    top: 50px;
+    top: 128px;
 }
-
 .footer > main #category_menu {
 	display: inline-block;
 	padding-left: 10px;
-	padding-right: 30px;
+	padding-right: 5%;
 }
 .footer > main #category_menu .catname {
 	font-size: 170%;
