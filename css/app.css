@@ -843,19 +843,20 @@ h1, h2, h3, h4, h5, h6, strong{
 	padding-right: 5%;
 }
 .footer > main #category_menu .catname {
-	font-size: 170%;
+	font-size: 134%;
 	font-weight: 700;
 }
 .footer > main #category_menu ul {
 	display: block;
-	margin-top: 7px;
-	font-size: 110%;
+	margin-top: 20px;
+	font-size: 100%;
 	margin-left: -28px;
+	list-style-type: square;
 }
 .footer > main #category_menu ul li {
-	margin-top: 2px;
+	padding-bottom: 13px;
 }
-.footer > main #category_menu ul li a{
-    color: white;
-    text-decoration: none;
+.footer > main #category_menu ul li a {
+	color: white;
+	text-decoration: none;
 }
