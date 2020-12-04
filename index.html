@@ -6,6 +6,25 @@
     <title>InvestPortal</title>
     <link rel="stylesheet" href="css/app.css" />
     <style>
+        .exchange-selector {
+            position: relative;
+            top: 37px;
+            left: 33%;
+        }
+        #regexchange {
+            position: relative;
+            display: inline-block;
+            font-size: 110%;
+            color: dodgerblue;
+            background-color: transparent;
+            border: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+        #regexchange:after {
+            content: "▼";
+        }
         .add-but{
             text-align: center;
             color: gray;
@@ -74,6 +93,12 @@
                 <header>
                     <div class="welcome-link">
                         <a href="">How the start</a>
+                    </div>
+                    <div class="exchange-selector">
+                        <select name="regexchange" id="regexchange">
+                            <option value="usd">USD</option>
+                            <option value="eur">EUR</option>
+                        </select>
                     </div>
                     <div class="header-informer">
                         <main>

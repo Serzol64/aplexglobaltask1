@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, strong{
 }
 .header > #header_top{
     float: left;
-    width: calc(100% / 4);
+    width: 21%;
     margin-top: 0px;
     margin-left: 8%;
 }
@@ -27,18 +27,27 @@ h1, h2, h3, h4, h5, h6, strong{
 .header > #header_top .ht_header h1{
     font-size: 190%;
     color: dodgerblue;
+    display: inline-table;
+    width: 50%;
+    float: left;
+    margin-top: 15%;
+    margin-left: -5%;
 }
 .header > #header_top .ht_header span{
     display: block;
     margin-top: 3px;
-    font-size: 140%;
+    font-size: 115%;
     color: darkgray;
+    display: inline-table;
+    width: 49%;
+    float: right;
+    margin-top: 5%;
 }
 .header > #header_bottom{
     float: right;
-    width: calc(100% / 2);
+    width: 69%;
     margin-top: 0px;
-    margin-right: 6%;
+    margin-right: 0%;
 }
 .header > #header_bottom .hb_bottom{
     float: left;
@@ -55,10 +64,11 @@ h1, h2, h3, h4, h5, h6, strong{
 	display: inline-block;
 	font-size: 120%;
 	position: relative;
-	top: 16px;
+	top: 42px;
+	margin-left: 24px;
 }
 .header > #header_bottom .hb_bottom header .welcome-link a{
-    color: darkgray;
+    color: dodgerblue;
     text-decoration: none;
 }
 .header > #header_bottom .hb_bottom header .header-informer{
@@ -88,13 +98,15 @@ h1, h2, h3, h4, h5, h6, strong{
 }
 .header > #header_bottom .hb_bottom header .header-informer footer .user-services{
     display: inline;
+    position: relative;
+    left: -8%;
 }
 .header > #header_bottom .hb_bottom header .header-informer footer .user-services div{
     padding-right: 2%;
     display: inline;
 }
 .header > #header_bottom .hb_bottom header .header-informer footer .user-services a {
-	color: darkgray;
+	color: dodgerblue;
 	font-size: 120%;
 	text-decoration: none;
 	position: relative;
@@ -105,6 +117,8 @@ h1, h2, h3, h4, h5, h6, strong{
 }
 .header > #header_bottom .hb_bottom header .header-informer footer .menu-show{
     display: inline;
+    position: relative;
+    left: -8px;
 }
 .header > #header_bottom .hb_bottom header .header-informer footer .menu-show img{
     width: 35px;
@@ -120,12 +134,12 @@ h1, h2, h3, h4, h5, h6, strong{
 }
 .header > #header_bottom .hb_bottom footer nav a{
     display: inline;
-    color: darkgray;
+    color: dodgerblue;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 21px;
+    margin-right: 8px;
     padding-bottom: 17px;
 }
 .header > #header_bottom .hb_bottom footer nav #active{
