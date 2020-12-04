@@ -4,7 +4,7 @@ html, body{
 }
 .header{
     width: 100%;
-    height: 248px;
+    height: 172px;
     background-color: rgb(236, 234, 234);
     position: fixed;
     top: 0;
@@ -13,7 +13,7 @@ html, body{
 .header > #header_top{
     float: left;
     width: calc(100% / 4);
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 8%;
 }
 .header > #header_top .ht_header{
@@ -32,7 +32,7 @@ html, body{
 .header > #header_bottom{
     float: right;
     width: calc(100% / 2);
-    margin-top: 60px;
+    margin-top: 0px;
     margin-right: 6%;
 }
 .header > #header_bottom .hb_bottom{
@@ -134,7 +134,7 @@ html, body{
 .main{
     width: 100%;
     height: auto;
-    margin-top: 14%;
+    margin-top: 8%;
 }
 .main > .section{
     width: 100%;
@@ -158,7 +158,27 @@ html, body{
 }
 .main > .section header a{
     color: darkblue;
-    font-size: 100%;
+    font-size: 70%;
+}
+.main > .section header a strong{
+    display: inline-table;
+}
+
+#news{ height:320px; }
+#investsearch{ height: 750px; }
+#services{ height: 250px; }
+#analytics{ height: 245px; }
+#estate{ height: 335px;}
+#reviews{ height: 235px; }
+
+#promo{
+    background-color: #21214b;
+}
+#promo > .section header h2, #promo > .section header strong{
+    color: white;
+}
+#promo > .section header a{
+    color: white;
 }
 #promo > main .promo-feed{
     width: 90%;
