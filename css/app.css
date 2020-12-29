@@ -872,6 +872,44 @@ h1, h2, h3, h4, h5, h6, strong{
 	color: white;
 	text-decoration: none;
 }
+@media all and (min-width:1024px) and (max-width: 1280px){
+    .header > #header_top .ht_header {
+        margin-left: -28%;
+        margin-top: -11%;
+    }
+    .header > #header_top .ht_header span {
+        font-size: 97%;
+        color: darkgray;
+        display: block;
+        width: 71%;
+        float: left;
+        margin-top: 31%;
+        margin-left: -64%;
+    }
+    .header > #header_bottom {
+        float: right;
+        width: 84%;
+        margin-top: -14%;
+        margin-right: 0%;
+    }
+    .header > #header_bottom .hb_bottom header .header-informer footer {
+        display: inline;
+        float: right;
+        margin-top: 7px;
+        padding-left: 44px;
+        width: 53%;
+        margin-right: -9%;
+    }
+    .header > #header_bottom .hb_bottom header .header-informer main {
+        display: inline-block;
+        margin-left: -4%;
+        position: relative;
+        top: 14px;
+    }
+    .header > #header_bottom .hb_bottom footer nav {
+        font-size: 97%;
+    }
+}
 @media all and (min-width:1280px) and (max-width: 1366px){
     .header > #header_top .ht_header {
         margin-left: -28%;
