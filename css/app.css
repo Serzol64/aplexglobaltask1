@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6, strong{
 
 #promo{ height: 760px; }
 #news{ height:320px; }
-#investsearch{ height: 750px; }
+#investsearch{ height: 470px; }
 #services{ height: 250px; }
 #analytics{ height: 245px; }
 #estate{ height: 335px;}
@@ -406,6 +406,9 @@ h1, h2, h3, h4, h5, h6, strong{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 128%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 38px;
 }
 #investsearch > main .popular-objects .popular-object footer .info span:nth-child(3){
     font-size: 111%;
@@ -622,6 +625,9 @@ h1, h2, h3, h4, h5, h6, strong{
     margin-top: 1%;
     color: dodgerblue;
     font-size: 150%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 118px;
 }
 #analytics > main #slider-view .analytic-feed .analytic .descr{
     display: block;
@@ -797,6 +803,9 @@ h1, h2, h3, h4, h5, h6, strong{
     color:dodgerblue;
     font-size: 140%;
     text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 147px;
 }
 #reviews > main #slider-view .review-feed .review footer a{
     margin-left: 1%;
@@ -913,6 +922,103 @@ h1, h2, h3, h4, h5, h6, strong{
     .header > #header_bottom .hb_bottom footer nav {
         font-size: 97%;
     }
+    #promo {
+        height: 531px;
+    }
+    #promo > main .promo-feed .promoblock header {
+        height: 34px;
+    }
+    #promo > main .promo-feed .promoblock main {
+        display: none;
+    }
+    #promo > main .promo-feed .promoblock footer {
+        margin-top: 4%;
+    }
+    #promo > main .promo-feed .promoblock footer .info span {
+        font-size: 101%;
+    }
+    #investsearch {
+        height: 554px;
+        padding-top: 26%;
+        padding-bottom: 0%;
+    }
+    #investsearch > main .popular-objects .popular-object header {
+        height: 24px;
+    }
+    #investsearch > main .popular-objects .popular-object header h3 {
+        font-size: 58%;
+    }
+    #investsearch > main .popular-objects .popular-object main {
+        display: none;
+    }
+    #investsearch > main .popular-objects .popular-object footer .info span:nth-child(2) {
+        font-size: 102%;
+    }
+    #investsearch > main .popular-objects .popular-object footer a {
+        font-size: 73%;
+    }
+    #services {
+        height: 250px;
+        padding-top: 19%;
+    }
+    #services > main #slider-controller img {
+        width: 44%;
+        top: 2px;
+    }
+    #services > main #slider-view .service-feed .service header {
+        font-size: 64%;
+    }
+    .service-feed .service main {
+        display: none;
+    }
+    #services > main #slider-view .service-feed .service footer .title {
+        font-size: 81%;
+    }
+    #services > main #slider-view .service-feed .service footer .location {
+        font-size: 89%;
+    }
+    #services > main #slider-view .service-feed .service footer .descr {
+        font-size: 81%;
+    }
+    #analytics > main #slider-view .analytic-feed .analytic {
+        height: 137px;
+    }
+    #analytics > main #slider-controller img {
+        width: 40%;
+        top: 27px;
+    }
+    #analytics > main #slider-view .analytic-feed .analytic h2 {
+        font-size: 123%;
+    }
+    #analytics > main #slider-view .analytic-feed .analytic .descr {
+        display: none;
+    }
+    #estate {
+        height: 249px;
+    }
+    #estate > main #slider-controller img {
+        width: 42%;
+        top: -27px;
+    }
+    #estate > main #slider-view .estat-feed .estat {
+        height: 181px;
+    }
+    #estate > main #slider-view .estat-feed .estat header {
+        font-size: 85%;
+    }
+    #estate > main #slider-view .estat-feed .estat main {
+        display: none;
+    }
+    #estate > main #slider-view .estat-feed .estat main {
+        display: none;
+    }
+    #reviews > main #slider-view .review-feed .review main h3 {
+        font-size: 121%;
+    }
+    #reviews > main #slider-controller img {
+        width: 48%;
+        top: 34px;
+    }
 }
 @media all and (min-width:1280px) and (max-width: 1366px){
     .header > #header_top .ht_header {
@@ -933,6 +1039,138 @@ h1, h2, h3, h4, h5, h6, strong{
         width: 81%;
         margin-top: -12%;
         margin-right: 0%;
+    }
+    #promo {
+        height: 531px;
+    }
+    #promo > main .promo-feed .promoblock header {
+        height: 34px;
+    }
+    #promo > main .promo-feed .promoblock main {
+        display: none;
+    }
+    #promo > main .promo-feed .promoblock footer {
+        margin-top: 4%;
+    }
+    #promo > main .promo-feed .promoblock footer .info span {
+        font-size: 101%;
+    }
+    #investsearch {
+        height: 554px;
+        padding-top: 26%;
+        padding-bottom: 0%;
+    }
+    #investsearch > main .popular-objects .popular-object header {
+        height: 24px;
+    }
+    #investsearch > main .popular-objects .popular-object header h3 {
+        font-size: 58%;
+    }
+    #investsearch > main .popular-objects .popular-object main {
+        display: none;
+    }
+    #investsearch > main .popular-objects .popular-object footer .info span:nth-child(2) {
+        font-size: 102%;
+    }
+    #investsearch > main .popular-objects .popular-object footer a {
+        font-size: 73%;
+    }
+    #promo {
+        height: 531px;
+    }
+    #promo > main .promo-feed .promoblock header {
+        height: 34px;
+    }
+    #promo > main .promo-feed .promoblock main {
+        display: none;
+    }
+    #promo > main .promo-feed .promoblock footer {
+        margin-top: 4%;
+    }
+    #promo > main .promo-feed .promoblock footer .info span {
+        font-size: 101%;
+    }
+    #investsearch {
+        height: 554px;
+        padding-top: 26%;
+        padding-bottom: 0%;
+    }
+    #investsearch > main .popular-objects .popular-object header {
+        height: 24px;
+    }
+    #investsearch > main .popular-objects .popular-object header h3 {
+        font-size: 58%;
+    }
+    #investsearch > main .popular-objects .popular-object main {
+        display: none;
+    }
+    #investsearch > main .popular-objects .popular-object footer .info span:nth-child(2) {
+        font-size: 102%;
+    }
+    #investsearch > main .popular-objects .popular-object footer a {
+        font-size: 73%;
+    }
+    #services {
+        height: 250px;
+        padding-top: 19%;
+    }
+    #services > main #slider-controller img {
+        width: 44%;
+        top: 2px;
+    }
+    #services > main #slider-view .service-feed .service header {
+        font-size: 64%;
+    }
+    .service-feed .service main {
+        display: none;
+    }
+    #services > main #slider-view .service-feed .service footer .title {
+        font-size: 81%;
+    }
+    #services > main #slider-view .service-feed .service footer .location {
+        font-size: 89%;
+    }
+    #services > main #slider-view .service-feed .service footer .descr {
+        font-size: 81%;
+    }
+    #analytics > main #slider-view .analytic-feed .analytic {
+        height: 137px;
+    }
+    #analytics > main #slider-controller img {
+        width: 40%;
+        top: 27px;
+    }
+    #analytics > main #slider-view .analytic-feed .analytic h2 {
+        font-size: 123%;
+    }
+    #analytics > main #slider-view .analytic-feed .analytic .descr {
+        display: none;
+    }
+    #estate {
+        height: 249px;
+    }
+    #estate > main #slider-controller img {
+        width: 42%;
+        top: -27px;
+    }
+    #estate > main #slider-view .estat-feed .estat {
+        height: 181px;
+    }
+    #estate > main #slider-view .estat-feed .estat header {
+        font-size: 85%;
+    }
+    #estate > main #slider-view .estat-feed .estat main {
+        display: none;
+    }
+    #estate > main #slider-view .estat-feed .estat main {
+        display: none;
+    }
+    #reviews > main #slider-view .review-feed .review main h3 {
+        font-size: 121%;
+    }
+    #reviews > main #slider-controller img {
+        width: 48%;
+        top: 34px;
     }
 }
 @media all and (min-width:1366px) and (max-width: 1400px){
@@ -958,6 +1196,27 @@ h1, h2, h3, h4, h5, h6, strong{
         margin-top: -9%;
         margin-right: -5%;
     }
+    #promo {
+        height: 541px;
+    }
+    #promo > main .promo-feed .promoblock main img {
+        height: 109px;
+    }
+    #promo > main .promo-feed .promoblock footer {
+        margin-top: 46%;
+    }
+    #promo > main .promo-feed .promoblock footer .info span {
+        font-size: 104%;
+    }
+    #investsearch {
+        height: 450px;
+    }
+    #investsearch > main .popular-objects .popular-object header {
+        height: 27px;
+    }
+    #investsearch > main .popular-objects .popular-object header h3 {
+        font-size: 79%;
+    }
 }
 @media all and (min-width:1400px) and (max-width: 1600px){
     .header > #header_top .ht_header {
@@ -976,9 +1235,51 @@ h1, h2, h3, h4, h5, h6, strong{
         margin-top: -9%;
         margin-right: -1%;
     }
+    #promo {
+        height: 561px;
+    }
+    #promo > main .promo-feed .promoblock main img {
+        height: 133px;
+    }
+    #promo > main .promo-feed .promoblock footer {
+        margin-top: 46%;
+    }
+    #promo > main .promo-feed .promoblock footer .info span {
+        font-size: 125%;
+    }
+    #investsearch {
+        height: 450px;
+    }
+    #investsearch > main .popular-objects .popular-object header {
+        height: 27px;
+    }
+    #investsearch > main .popular-objects .popular-object header h3 {
+        font-size: 79%;
+    }
 }
 @media all and (min-width:1600px) and (max-width: 1800px){
     .header > #header_top .ht_header span {
         margin-top: 10%;
+    }
+    #promo {
+        height: 601px;
+    }
+    #promo > main .promo-feed .promoblock main img {
+        height: 148px;
+    }
+    #promo > main .promo-feed .promoblock footer {
+        margin-top: 46%;
+    }
+    #promo > main .promo-feed .promoblock footer .info span {
+        font-size: 138%;
+    }
+    #investsearch {
+        height: 450px;
+    }
+    #investsearch > main .popular-objects .popular-object header {
+        height: 27px;
+    }
+    #investsearch > main .popular-objects .popular-object header h3 {
+        font-size: 79%;
     }
 }
